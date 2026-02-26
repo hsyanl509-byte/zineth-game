@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std&family=Cairo:wght@200..1000&family=Poly:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+font-family: cursive, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #151a21;
+    width: 70%;
+    box-shadow: 0 0 10px 10px #00e5ff;
+    margin-left: 15%;
+    margin-bottom: 200px;
+    margin-right: 15%;
+    margin-top: 2%
+}
+
+body{
+    background: #0e1117;
+}
+
+.header_img{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 40%;
+}
+
+.header_button{
+    color: #00e5ff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.button1{
+    display: flex;
+    color: #00e5ff;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.button2{
+    display: flex;
+    color: #00e5ff;
+    margin-left: 670px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.download_icon{
+    margin-top: 12px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.node{
+    color: #e6edf3;
+    margin-top: 50px;
+}

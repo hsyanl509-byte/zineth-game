@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std&family=Cairo:wght@200..1000&family=Poly:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+font-family: cursive, serif;
+}
+
+body{
+    background-color: #151a21;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100px;
+    box-shadow: 0 0 10px 10px #00e5ff;
+    margin-top: 2%;
+    margin-bottom: 200px;
+}
+
+.tlitel{
+    color: #e6edf3;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.back{
+    margin-left: 10px;
+}
+
+.download{
+    display: flex;
+    color: #00e5ff;
+    margin-left: 43.6%;
+    text-decoration: none;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.download_img{
+    height: 32px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.game_img{
+    height: 256px;
+    margin-right: 10px;
+}
+
+.game_logo{
+    margin-bottom: 50px;
+}
+
+.node{
+    color: #e6edf3;
+    margin-bottom: 50px;
+}
