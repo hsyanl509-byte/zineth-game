@@ -1,0 +1,69 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #151a21;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100px;
+    box-shadow: 0 0 10px 10px #00e5ff;
+    margin-top: 2%;
+    margin-bottom: 50px;
+}
+
+.tlitel{
+    color: #e6edf3;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.home{
+    display: flex;
+    margin-left: 10px;
+}
+
+.flappy_bird{
+margin-left: 40px;
+}
+
+@media (max-width:480px) {
+    header{
+        width: 0px;
+        height: 0px;
+        margin-bottom: 50%;
+        visibility: hidden;
+    }
+
+    .home{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .tlitel{
+        width: 0px;
+        height: 0px;
+    }
+
+    .flappy_bird{
+    margin-left: 15%;
+    }
+
+}
+
+
+@media (max-width:1400px) {
+    *{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header{
+        max-width: 1000px;
+    }
+
+}
