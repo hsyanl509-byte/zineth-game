@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std&family=Cairo:wght@200..1000&family=Poly:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 *{
-font-family: cursive, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{
@@ -31,6 +30,40 @@ header{
 
 .flappy_bird{
 margin-left: 40px;
+}
+
+@media (max-width:480px) {
+    header{
+        width: 0px;
+        height: 0px;
+        margin-bottom: 50%;
+        visibility: hidden;
+    }
+
+    .home{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .tlitel{
+        width: 0px;
+        height: 0px;
+    }
+
+    .flappy_bird{
+    margin-left: 15%;
+    }
 
 }
 
+
+@media (max-width:1400px) {
+    *{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header{
+        max-width: 1000px;
+    }
+
+}
